@@ -2,14 +2,14 @@
 const stops = [
     {
         id: 1,
-        tituloCorto: "El inicio",
-        fraseCerrada: "Sin saberlo, ahí empezó mi lugar favorito",
+        tituloCorto: "Hoy",
+        fraseCerrada: "Hoy empieza tu día: 21 vueltas al sol",
         foto: "assets/photos/01-inicio.jpg",
         mensaje: [
-            "¿Recuerdas ese momento? Yo sí. Cada detalle está guardado como si fuera ayer.",
-            "No sabía que ese día marcaría el inicio de algo tan bonito. Tampoco imaginaba que encontraría en ti un hogar, una aventura y una calma al mismo tiempo.",
-            "Desde entonces, todo cambió. Las cosas simples se volvieron especiales, los días grises encontraron color, y yo encontré mi lugar favorito: a tu lado.",
-            "Gracias por ese inicio. Desde ese día, todo se siente más bonito contigo."
+            "Hoy no es un día cualquiera. Hoy el calendario se pone bonito porque cumples 21.",
+            "Quiero que esta página sea como un caminito: suave, tierno, y lleno de cositas que te recuerden lo especial que eres.",
+            "Que este año te traiga calma, risas nuevas, y momentos que se queden contigo mucho tiempo.",
+            "Feliz cumpleaños, mi amor. Hoy empieza tu celebración!"
         ]
     },
     {
@@ -18,46 +18,46 @@ const stops = [
         fraseCerrada: "Contigo, cualquier plan se vuelve especial",
         foto: "assets/photos/02-aventura.jpg",
         mensaje: [
-            "Me encanta cómo convertimos cualquier plan en una aventura. No importa si es algo grande o simple, contigo todo tiene magia.",
-            "Esos momentos explorando juntos, descubriendo rincones nuevos, probando cosas por primera vez… cada experiencia a tu lado se queda grabada con una sonrisa.",
-            "Tú haces que lo ordinario se vuelva extraordinario. Gracias por mostrarme el mundo desde tus ojos, por enseñarme a disfrutar el camino tanto como el destino.",
-            "Me encanta descubrir el mundo a tu lado, y sé que nos quedan mil aventuras por vivir juntos."
+            "Cumplir 21 se siente como abrir una puerta nueva. No porque todo cambie de golpe, sino porque tú cambias, con más confianza y más ganas para todo.",
+            "Me encanta tu manera de vivir: esa curiosidad, ese ‘vamos a ver qué pasa’, y esa energía que vuelve especial hasta lo más simple.",
+            "Este año te regalara planes bonitos, lugares nuevos, experiencias que te llenen el corazón y recuerdos que te hagan sonreír sin esfuerzo.",
+            "Hoy celebramos tus 21, pero también celebramos todo lo que viene: tu aventura apenas se pone mejor."
         ]
     },
     {
         id: 3,
         tituloCorto: "Risas",
-        fraseCerrada: "Gracias por mis carcajadas favoritas",
+        fraseCerrada: "Tu alegría hace que todo se sienta más ligero",
         foto: "assets/photos/03-risas.jpg",
         mensaje: [
-            "Tu risa es de esas cosas que se quedan en el corazón. Cuando te ríes, todo lo demás desaparece y solo queda ese momento perfecto.",
-            "Gracias por las bromas tontas, por los chistes internos que nadie más entiende, por reírte de mis ocurrencias y hacerme reír incluso en los días difíciles.",
-            "Esos momentos de risa compartida son de los que más atesoro. Son luz pura, alegría sin filtro, y uno de mis recuerdos favoritos siempre será el sonido de tu felicidad.",
-            "Tu risa es de las cosas que más quiero cuidar."
+            "Tu risa tiene algo que cambia la vida. Como si encendiera una luz donde antes no estaba.",
+            "Me encanta que tengas esa forma bonita de encontrarle lo bueno a las cosas, incluso cuando el día es muy duro.",
+            "Hoy quiero que te rías mucho, de veritas: de lo simple, de lo tonto, de lo inesperado… de la vida.",
+            "Que este año te regale razones nuevas para sonreír, y que nunca se te olvide lo increíble que eres."
         ]
     },
     {
         id: 4,
-        tituloCorto: "Calma",
-        fraseCerrada: "Aquí el mundo baja el volumen",
+        tituloCorto: "Naturaleza",
+        fraseCerrada: "Que este año te trate con cariño",
         foto: "assets/photos/04-calma.jpg",
         mensaje: [
-            "En medio del ruido y el caos del mundo, tú eres mi refugio. Contigo el tiempo va más lento, las preocupaciones pesan menos, y todo encuentra su lugar.",
-            "Me gusta la calma que traes, esa paz que no necesita palabras. Estar a tu lado es como llegar a casa después de un largo día.",
-            "Gracias por ser mi espacio seguro, por entenderme sin que tenga que explicar, por darme paciencia cuando la pierdo y por recordarme que todo va a estar bien.",
-            "Contigo encuentro paz, hogar y paciencia. Eres mi lugar tranquilo en este mundo acelerado."
+            "Ojalá tus 21 vengan con paz. De esa que no hace ruido, pero lo arregla todo.",
+            "Que tengas días lentos cuando los necesites, y fuerza cuando el mundo te pida más de la cuenta.",
+            "Que te rodee de gente que te cuide bonito, que te celebre demasiado y que te sume siempre.",
+            "Y que, pase lo que pase, recuerdes esto: mereces cosas buenas, y mereces sentirte en casa en tu propia vida."
         ]
     },
     {
         id: 5,
-        tituloCorto: "Hoy",
-        fraseCerrada: "21 años de luz… y yo feliz de estar cerca",
+        tituloCorto: "Cumpleaños",
+        fraseCerrada: "Por ti, por tus 21, y por todo lo que viene",
         foto: "assets/photos/05-hoy.jpg",
         mensaje: [
-            "Hoy celebras 21 años de existir, de llenar el mundo de luz, de ser exactamente quien eres. Y yo tengo el privilegio de estar aquí, celebrándote.",
-            "Cada año que pasa eres más tú: más fuerte, más brillante, más increíble. Verte crecer, evolucionar y conquistar tus sueños es uno de los regalos más bonitos que me ha dado la vida.",
-            "Quiero que sepas que te admiro profundamente. Tu forma de ver el mundo, tu bondad, tu risa, tu valentía… todo en ti me inspira a ser mejor.",
-            "Feliz cumpleaños, mi amor. Hoy brindo por ti, por tus 21 años, por todo lo que eres y todo lo que serás. Te elijo hoy y siempre."
+            "Hoy el mundo te celebra, pero yo celebro algo más simple: que existas.",
+            "Que estos 21 sean un capítulo bonito: de aprender, de crecer, de disfrutar, de elegirte a ti misma con más confianza.",
+            "Que no te falte amor del bueno, calma cuando la necesites, y motivos para sentirte orgullosa de ti.",
+            "Feliz cumpleaños. Hoy brindo por ti… y por todo lo lindo que todavía falta."
         ]
     }
 ];
@@ -66,10 +66,14 @@ const stops = [
 let currentActiveStop = 0;
 let isModalOpen = false;
 let finalSectionAnimated = false;
+let isTransitioning = false;
 
 // Renderizar paradas
 function renderStops() {
     const container = document.getElementById('stops-container');
+    if (!container) return;
+    
+    container.innerHTML = '';
     
     stops.forEach((stop, index) => {
         const alignment = index % 2 === 0 ? 'left' : 'right';
@@ -141,6 +145,8 @@ function setupFinalSectionObserver() {
 // Sparkle hearts en sección final
 function triggerSparkleHearts() {
     const finalSection = document.querySelector('.final-section');
+    if (!finalSection) return;
+    
     const sparkleContainer = document.createElement('div');
     sparkleContainer.className = 'sparkle-hearts-container';
     finalSection.appendChild(sparkleContainer);
@@ -166,7 +172,10 @@ function updateProgress() {
     const docHeight = document.documentElement.scrollHeight - window.innerHeight;
     const progress = (scrollTop / docHeight) * 100;
     
-    document.querySelector('.progress-fill').style.width = `${progress}%`;
+    const progressFill = document.querySelector('.progress-fill');
+    if (progressFill) {
+        progressFill.style.width = `${progress}%`;
+    }
     
     // Actualizar parada activa
     const stopElements = document.querySelectorAll('.stop');
@@ -183,9 +192,9 @@ function updateProgress() {
     
     // Fade instruction section
     const instructionSection = document.querySelector('.instruction-section');
-    if (scrollTop > 100) {
+    if (instructionSection && scrollTop > 100) {
         instructionSection.classList.add('fade-out');
-    } else {
+    } else if (instructionSection) {
         instructionSection.classList.remove('fade-out');
     }
 }
@@ -208,12 +217,14 @@ function setActiveStop(stopNumber) {
         const turtleGuide = document.querySelector('.turtle-guide');
         const currentStopSpan = document.getElementById('current-stop');
         
-        if (stopNumber > 0) {
-            turtleGuide.classList.add('active', 'bounce');
-            currentStopSpan.textContent = stopNumber;
-            setTimeout(() => turtleGuide.classList.remove('bounce'), 600);
-        } else {
-            turtleGuide.classList.remove('active');
+        if (turtleGuide && currentStopSpan) {
+            if (stopNumber > 0) {
+                turtleGuide.classList.add('active', 'bounce');
+                currentStopSpan.textContent = stopNumber;
+                setTimeout(() => turtleGuide.classList.remove('bounce'), 600);
+            } else {
+                turtleGuide.classList.remove('active');
+            }
         }
     }
 }
@@ -236,6 +247,8 @@ function openModal(stopId) {
     const modalMessage = document.getElementById('modal-message');
     const modalNext = document.getElementById('modal-next');
     
+    if (!modal || !modalImg || !modalTitle || !modalMessage || !modalNext) return;
+    
     // Configurar contenido
     modalImg.src = stop.foto;
     modalImg.alt = stop.tituloCorto;
@@ -250,6 +263,8 @@ function openModal(stopId) {
     });
     
     // Mostrar/ocultar botón siguiente
+    modalNext.disabled = false
+    modalNext.classList.remove('transitioning')
     if (stopId < 5) {
         modalNext.style.display = 'flex';
         modalNext.onclick = () => nextStop(stopId);
@@ -269,25 +284,116 @@ function openModal(stopId) {
 function closeModal() {
     isModalOpen = false;
     const modal = document.getElementById('modal-overlay');
-    modal.classList.remove('active');
+    if (modal) {
+        modal.classList.remove('active');
+    }
     document.body.style.overflow = 'auto';
 }
 
-// Siguiente parada
-function nextStop(currentId) {
-    closeModal();
-    setTimeout(() => {
-        const currentIndex = stops.findIndex(s => s.id === currentId);
-        if (currentIndex < stops.length - 1) {
-            const nextStopElement = document.querySelector(`.stop[data-stop="${currentId + 1}"]`);
-            smoothScrollTo(nextStopElement);
+// Detectar cuando el scroll termina (estable en móvil)
+function detectScrollEnd(targetPosition, callback) {
+    let lastScrollY = window.scrollY;
+    let samePositionCount = 0;
+    let frameCount = 0;
+    const maxFrames = 120; // 2 segundos máximo (60fps * 2)
+    const tolerance = 5; // Píxeles de tolerancia
+    
+    function checkScroll() {
+        frameCount++;
+        const currentScrollY = window.scrollY;
+        
+        // Verificar si llegamos al destino o si el scroll se detuvo
+        const reachedTarget = Math.abs(currentScrollY - targetPosition) < tolerance;
+        const scrollStopped = Math.abs(currentScrollY - lastScrollY) < 1;
+        
+        if (scrollStopped) {
+            samePositionCount++;
+        } else {
+            samePositionCount = 0;
         }
-    }, 300);
+        
+        // Condiciones para considerar que el scroll terminó
+        if (reachedTarget || samePositionCount >= 3 || frameCount >= maxFrames) {
+            callback();
+            return;
+        }
+        
+        lastScrollY = currentScrollY;
+        requestAnimationFrame(checkScroll);
+    }
+    
+    requestAnimationFrame(checkScroll);
+}
+
+// Siguiente parada con apertura automática del modal
+function nextStop(currentId) {
+    const modalNext = document.getElementById('modal-next');
+    
+    // Prevenir clics múltiples
+    if (isTransitioning) return;
+    isTransitioning = true;
+    
+    // Feedback visual
+    if (modalNext) {
+        modalNext.classList.add('transitioning');
+        modalNext.disabled = true;
+    }
+    
+    const currentIndex = stops.findIndex(s => s.id === currentId);
+    
+    // Verificar que existe una siguiente parada
+    if (currentIndex === -1 || currentIndex >= stops.length - 1) {
+        isTransitioning = false;
+        if (modalNext) {
+            modalNext.classList.remove('transitioning');
+            modalNext.disabled = false;
+        }
+        return;
+    }
+    
+    const nextStopId = currentId + 1;
+    const nextStopElement = document.querySelector(`.stop[data-stop="${nextStopId}"]`);
+    
+    // Fail-safe: si no encuentra el elemento
+    if (!nextStopElement) {
+        console.warn('No se encontró la siguiente parada');
+        isTransitioning = false;
+        if (modalNext) {
+            modalNext.classList.remove('transitioning');
+            modalNext.disabled = false;
+        }
+        closeModal();
+        return;
+    }
+    
+    // 1. Cerrar modal actual
+    closeModal();
+    
+    // 2. Hacer scroll suave
+    setTimeout(() => {
+        const targetPosition = nextStopElement.getBoundingClientRect().top + window.scrollY - (window.innerHeight / 2) + (nextStopElement.offsetHeight / 2);
+        
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+        
+        // 3. Detectar cuando el scroll termina y abrir el siguiente modal
+        detectScrollEnd(targetPosition, () => {
+            // Abrir el modal de la siguiente parada
+            setTimeout(() => {
+                openModal(nextStopId);
+                isTransitioning = false;
+            }, 150);
+        });
+    }, 350);
 }
 
 // Crear partículas de corazones
 function createHeartParticles() {
     const container = document.getElementById('particles-container');
+    if (!container) return;
+    
     container.innerHTML = '';
     
     for (let i = 0; i < 10; i++) {
@@ -304,29 +410,175 @@ function createHeartParticles() {
     }, 2500);
 }
 
-// Event Listeners
+// ============================================
+// SORPRESA FINAL - TORTUGA EXPLOSIÓN
+// ============================================
+
+let turtleExploded = false;
+
+function initTurtleSurprise() {
+    const turtleFinal = document.querySelector('.turtle-final');
+    const overlay = document.getElementById('turtle-surprise-overlay');
+    const closeBtn = document.querySelector('.surprise-close');
+    
+    if (!turtleFinal || !overlay || !closeBtn) return;
+    
+    // Hacer la tortuga accesible
+    turtleFinal.setAttribute('role', 'button');
+    turtleFinal.setAttribute('tabindex', '0');
+    turtleFinal.setAttribute('aria-label', 'Sorpresa final de cumpleaños');
+    
+    // Click en la tortuga
+    turtleFinal.addEventListener('click', handleTurtleClick);
+    turtleFinal.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            handleTurtleClick();
+        }
+    });
+    
+    // Cerrar overlay
+    closeBtn.addEventListener('click', closeSurpriseOverlay);
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) {
+            closeSurpriseOverlay();
+        }
+    });
+    
+    // Tecla Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && overlay.classList.contains('active')) {
+            closeSurpriseOverlay();
+        }
+    });
+}
+
+function handleTurtleClick() {
+    const turtleFinal = document.querySelector('.turtle-final');
+    
+    if (!turtleExploded) {
+        turtleExploded = true;
+        explodeTurtle(turtleFinal);
+        
+        setTimeout(() => {
+            openSurpriseOverlay();
+        }, 800);
+    } else {
+        openSurpriseOverlay();
+    }
+}
+
+function explodeTurtle(turtle) {
+    if (!turtle) return;
+    
+    turtle.classList.add('exploding');
+    
+    const rect = turtle.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    
+    for (let i = 0; i < 12; i++) {
+        createExplosionParticle(centerX, centerY, i, 12);
+    }
+    
+    setTimeout(() => {
+        turtle.classList.remove('exploding');
+    }, 800);
+}
+
+function createExplosionParticle(x, y, index, total) {
+    const particle = document.createElement('div');
+    particle.className = 'explosion-particle';
+    
+    const angle = (index / total) * Math.PI * 2;
+    const distance = 150 + Math.random() * 100;
+    const tx = Math.cos(angle) * distance;
+    const ty = Math.sin(angle) * distance;
+    
+    particle.style.left = x + 'px';
+    particle.style.top = y + 'px';
+    particle.style.setProperty('--tx', tx + 'px');
+    particle.style.setProperty('--ty', ty + 'px');
+    
+    document.body.appendChild(particle);
+    
+    setTimeout(() => {
+        particle.remove();
+    }, 1000);
+}
+
+function openSurpriseOverlay() {
+    const overlay = document.getElementById('turtle-surprise-overlay');
+    const heartsContainer = document.querySelector('.surprise-hearts');
+    
+    if (!overlay || !heartsContainer) return;
+    
+    overlay.classList.add('active');
+    document.body.classList.add('surprise-active');
+    
+    createSurpriseHearts(heartsContainer);
+}
+
+function closeSurpriseOverlay() {
+    const overlay = document.getElementById('turtle-surprise-overlay');
+    const heartsContainer = document.querySelector('.surprise-hearts');
+    
+    if (!overlay || !heartsContainer) return;
+    
+    overlay.classList.remove('active');
+    document.body.classList.remove('surprise-active');
+    
+    heartsContainer.innerHTML = '';
+}
+
+function createSurpriseHearts(container) {
+    container.innerHTML = '';
+    
+    for (let i = 0; i < 20; i++) {
+        const heart = document.createElement('div');
+        heart.className = 'surprise-heart';
+        heart.style.left = Math.random() * 100 + '%';
+        heart.style.bottom = '-50px';
+        heart.style.animationDelay = (i * 0.3) + 's';
+        heart.style.animationDuration = (4 + Math.random() * 2) + 's';
+        container.appendChild(heart);
+    }
+}
+
+// ============================================
+// INICIALIZACIÓN
+// ============================================
+
 document.addEventListener('DOMContentLoaded', () => {
+    // Renderizar paradas
     renderStops();
     setupIntersectionObserver();
     setupFinalSectionObserver();
     
     // Botón inicial
-    document.getElementById('start-btn').addEventListener('click', () => {
-        const firstStop = document.querySelector('.stop[data-stop="1"]');
-        smoothScrollTo(firstStop);
-        
-        // Animar tortuga
-        const turtleHero = document.querySelector('.turtle-hero');
-        turtleHero.style.animation = 'none';
-        setTimeout(() => {
-            turtleHero.style.animation = 'bounce 0.6s ease';
-        }, 10);
-    });
+    const startBtn = document.getElementById('start-btn');
+    if (startBtn) {
+        startBtn.addEventListener('click', () => {
+            const firstStop = document.querySelector('.stop[data-stop="1"]');
+            smoothScrollTo(firstStop);
+            
+            const turtleHero = document.querySelector('.turtle-hero');
+            if (turtleHero) {
+                turtleHero.style.animation = 'none';
+                setTimeout(() => {
+                    turtleHero.style.animation = 'bounce 0.6s ease';
+                }, 10);
+            }
+        });
+    }
     
     // Botón volver al inicio
-    document.getElementById('restart-btn').addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+    const restartBtn = document.getElementById('restart-btn');
+    if (restartBtn) {
+        restartBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
     
     // Abrir modal al click en tarjetas
     document.addEventListener('click', (e) => {
@@ -338,14 +590,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     // Cerrar modal
-    document.querySelector('.modal-close').addEventListener('click', closeModal);
-    document.getElementById('modal-overlay').addEventListener('click', (e) => {
-        if (e.target.id === 'modal-overlay') {
-            closeModal();
-        }
-    });
+    const modalClose = document.querySelector('.modal-close');
+    if (modalClose) {
+        modalClose.addEventListener('click', closeModal);
+    }
     
-    // Tecla Escape
+    const modalOverlay = document.getElementById('modal-overlay');
+    if (modalOverlay) {
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target.id === 'modal-overlay') {
+                closeModal();
+            }
+        });
+    }
+    
+    // Tecla Escape para modal
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && isModalOpen) {
             closeModal();
@@ -354,4 +613,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Scroll progress
     window.addEventListener('scroll', updateProgress);
+    
+    // Inicializar sorpresa de tortuga
+    initTurtleSurprise();
 });

@@ -1,123 +1,186 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feliz Cumpleaños 21 - Mi Amor</title>
-    <meta name="description" content="Un camino especial por nuestro bosque de recuerdos">
-    <meta property="og:title" content="Feliz Cumpleaños 21">
-    <meta property="og:description" content="Un camino especial por nuestro bosque de recuerdos">
-    <meta property="og:image" content="./assets/photos/05-hoy.jpg">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Cumpleaños 21 - Mi Amor</title>
+  <meta name="description" content="Un camino especial por este dia especial" />
+  <meta property="og:title" content="Feliz Cumpleaños 21" />
+  <meta property="og:description" content="Un camino especial por este dia especial" />
+  <meta property="og:image" content="./assets/photos/05-hoy.jpg" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <!-- Barra de progreso -->
-    <div class="progress-bar">
-        <div class="progress-fill"></div>
+  <!-- Barra de progreso -->
+  <div class="progress-bar">
+    <div class="progress-fill"></div>
+  </div>
+
+  <!-- Marcadores de progreso -->
+  <div class="progress-markers">
+    <div class="marker" data-stop="1">1</div>
+    <div class="marker" data-stop="2">2</div>
+    <div class="marker" data-stop="3">3</div>
+    <div class="marker" data-stop="4">4</div>
+    <div class="marker" data-stop="5">5</div>
+  </div>
+
+  <!-- Tortuga guía -->
+  <div class="turtle-guide">
+    <img
+      src="assets/illustrations/turtle.svg"
+      alt="Tortuga"
+      class="turtle-img"
+      onerror="this.outerHTML='<div class=&quot;turtle-emoji&quot;>🐢</div>'"
+    />
+    <div class="turtle-text">Parada <span id="current-stop">0</span> de 5</div>
+  </div>
+
+  <!-- Sección 0: Portada -->
+  <section id="hero" class="hero-section">
+    <div class="trees-bg">
+      <img
+        src="assets/illustrations/trees-left.svg"
+        class="tree-left"
+        alt=""
+        onerror="this.style.display='none'"
+      />
+      <img
+        src="assets/illustrations/trees-right.svg"
+        class="tree-right"
+        alt=""
+        onerror="this.style.display='none'"
+      />
     </div>
 
-    <!-- Marcadores de progreso -->
-    <div class="progress-markers">
-        <div class="marker" data-stop="1">1</div>
-        <div class="marker" data-stop="2">2</div>
-        <div class="marker" data-stop="3">3</div>
-        <div class="marker" data-stop="4">4</div>
-        <div class="marker" data-stop="5">5</div>
+    <div class="floating-hearts">
+      <div class="heart-float" style="left: 10%; animation-delay: 0s;"></div>
+      <div class="heart-float" style="left: 20%; animation-delay: 0.5s;"></div>
+      <div class="heart-float" style="left: 30%; animation-delay: 1s;"></div>
+      <div class="heart-float" style="left: 50%; animation-delay: 1.5s;"></div>
+      <div class="heart-float" style="left: 70%; animation-delay: 2s;"></div>
+      <div class="heart-float" style="left: 80%; animation-delay: 2.5s;"></div>
+      <div class="heart-float" style="left: 90%; animation-delay: 3s;"></div>
     </div>
 
-    <!-- Tortuga guía -->
-    <div class="turtle-guide">
-        <img src="assets/illustrations/turtle.svg" alt="Tortuga" class="turtle-img" onerror="this.outerHTML='<div class=&quot;turtle-emoji&quot;>🐢</div>'">
-        <div class="turtle-text">Parada <span id="current-stop">0</span> de 5</div>
+    <div class="hero-content">
+      <h1 class="hero-title">♡ Feliz cumpleaños Lía ♡</h1>
+      <p class="hero-subtitle">Te preparé un caminito por tu cumpleaños</p>
+      <button id="start-btn" class="btn-primary">Empezar el camino</button>
     </div>
 
-    <!-- Sección 0: Portada -->
-    <section id="hero" class="hero-section">
-        <div class="trees-bg">
-            <img src="assets/illustrations/trees-left.svg" class="tree-left" alt="" onerror="this.style.display='none'">
-            <img src="assets/illustrations/trees-right.svg" class="tree-right" alt="" onerror="this.style.display='none'">
-        </div>
-        <div class="floating-hearts">
-            <div class="heart-float" style="left: 10%; animation-delay: 0s;"></div>
-            <div class="heart-float" style="left: 20%; animation-delay: 0.5s;"></div>
-            <div class="heart-float" style="left: 30%; animation-delay: 1s;"></div>
-            <div class="heart-float" style="left: 50%; animation-delay: 1.5s;"></div>
-            <div class="heart-float" style="left: 70%; animation-delay: 2s;"></div>
-            <div class="heart-float" style="left: 80%; animation-delay: 2.5s;"></div>
-            <div class="heart-float" style="left: 90%; animation-delay: 3s;"></div>
-        </div>
-        <div class="hero-content">
-            <h1 class="hero-title">Feliz cumpleaños, Mi Amor</h1>
-            <p class="hero-subtitle">Te preparé un caminito por nuestro bosque de recuerdos</p>
-            <button id="start-btn" class="btn-primary">Empezar el camino</button>
-        </div>
-        <div class="turtle-hero">
-            <img src="assets/illustrations/turtle.svg" alt="Tortuga" onerror="this.outerHTML='<div style=&quot;font-size: 80px&quot;>🐢</div>'">
-        </div>
-    </section>
+    <div class="turtle-hero">
+      <img
+        src="assets/illustrations/turtle.svg"
+        alt="Tortuga"
+        onerror="this.outerHTML='<div style=&quot;font-size: 80px&quot;>🐢</div>'"
+      />
+    </div>
+  </section>
 
-    <!-- Sección 1: Instrucción -->
-    <section class="instruction-section">
-        <p class="instruction-text">
-            <span class="icon">🐢</span>
-            Toca cada parada para abrir el recuerdo
-            <span class="icon">💚</span>
-        </p>
-    </section>
+  <!-- Sección 1: Instrucción -->
+  <section class="instruction-section">
+    <p class="instruction-text">
+      <span class="icon">🐢</span>
+      Toca cada parada para abrir el recuerdo
+      <span class="icon">💚</span>
+    </p>
+  </section>
 
-    <!-- Sección 2: Camino con paradas -->
-    <section id="path-section" class="path-section">
-        <div class="path-line"></div>
-        <div class="path-decorations">
-            <div class="tree-deco" style="top: 10%; left: 5%;"></div>
-            <div class="tree-deco" style="top: 30%; right: 5%;"></div>
-            <div class="tree-deco" style="top: 60%; left: 8%;"></div>
-            <div class="tree-deco" style="top: 85%; right: 8%;"></div>
-        </div>
-        <div id="stops-container" class="stops-container">
-            <!-- Las paradas se generarán con JavaScript -->
-        </div>
-    </section>
-
-    <!-- Sección 3: Final -->
-    <section class="final-section">
-        <div class="floating-hearts final-hearts">
-            <div class="heart-float" style="left: 15%; animation-delay: 0s;"></div>
-            <div class="heart-float" style="left: 25%; animation-delay: 0.3s;"></div>
-            <div class="heart-float" style="left: 40%; animation-delay: 0.6s;"></div>
-            <div class="heart-float" style="left: 60%; animation-delay: 0.9s;"></div>
-            <div class="heart-float" style="left: 75%; animation-delay: 1.2s;"></div>
-            <div class="heart-float" style="left: 85%; animation-delay: 1.5s;"></div>
-        </div>
-        <div class="final-content">
-            <h2 class="final-title">Llegaste a mi lugar favorito: tú</h2>
-            <div class="final-message">
-                <p>Dicen que uno siempre vuelve a donde es feliz, y yo encontré mi lugar favorito en ti.</p>
-                <p>Gracias por existir y por dejarme caminar a tu lado una vuelta al sol más. ¡Felices 21!</p>
-                <p>Hoy el mundo te celebra, pero yo agradezco el regalo de que seas tú.</p>
-            </div>
-            <button id="restart-btn" class="btn-secondary">Volver al inicio</button>
-        </div>
-        <div class="turtle-final">🐢</div>
-    </section>
-
-    <!-- Modal -->
-    <div id="modal-overlay" class="modal-overlay">
-        <div class="modal-content">
-            <button class="modal-close">&times;</button>
-            <div class="modal-body">
-                <img id="modal-img" src="" alt="" class="modal-img">
-                <h3 id="modal-title" class="modal-title"></h3>
-                <p id="modal-message" class="modal-message"></p>
-                <button id="modal-next" class="btn-next">
-                    Siguiente parada
-                    <span class="arrow">→</span>
-                </button>
-            </div>
-        </div>
-        <div id="particles-container" class="particles-container"></div>
+  <!-- Sección 2: Camino con paradas -->
+  <section id="path-section" class="path-section">
+    <div class="path-line"></div>
+    <div class="path-decorations">
+      <div class="tree-deco" style="top: 10%; left: 5%;"></div>
+      <div class="tree-deco" style="top: 30%; right: 5%;"></div>
+      <div class="tree-deco" style="top: 60%; left: 8%;"></div>
+      <div class="tree-deco" style="top: 85%; right: 8%;"></div>
     </div>
 
-    <script src="js/main.js"></script>
+    <div id="stops-container" class="stops-container">
+      <!-- Las paradas se generarán con JavaScript -->
+    </div>
+  </section>
+
+  <!-- Sección 3: Final -->
+  <section class="final-section">
+    <div class="floating-hearts final-hearts">
+      <div class="heart-float" style="left: 15%; animation-delay: 0s;"></div>
+      <div class="heart-float" style="left: 25%; animation-delay: 0.3s;"></div>
+      <div class="heart-float" style="left: 40%; animation-delay: 0.6s;"></div>
+      <div class="heart-float" style="left: 60%; animation-delay: 0.9s;"></div>
+      <div class="heart-float" style="left: 75%; animation-delay: 1.2s;"></div>
+      <div class="heart-float" style="left: 85%; animation-delay: 1.5s;"></div>
+    </div>
+
+    <div class="final-content">
+    <h2 class="final-title">Hoy celebramos tus 21 🎂</h2>
+    <div class="final-message">
+        <p>Que este nuevo capítulo te llegue con calma, alegría y muchas razones para sonreír.</p>
+        <p>Que te elijas con más confianza, que te abraces más fuerte y que la vida te sorprenda bonito.</p>
+        <p class="final-highlight">¡Felices 21! Hoy el mundo te celebra, y yo celebro que existas.</p>
+    </div>
+    <button id="restart-btn" class="btn-secondary">Volver al inicio</button>
+    </div>
+
+    <div class="turtle-final">🐢</div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal-overlay" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Cerrar">&times;</button>
+
+      <div class="modal-body">
+        <img id="modal-img" src="" alt="" class="modal-img" />
+        <h3 id="modal-title" class="modal-title"></h3>
+
+        <!-- IMPORTANTE: ahora es DIV para permitir varios <p> dentro -->
+        <div id="modal-message" class="modal-message"></div>
+
+        <button id="modal-next" class="btn-next">
+          Siguiente parada
+          <span class="arrow">→</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="particles-container" class="particles-container"></div>
+  </div>
+
+  <!-- Overlay de sorpresa final -->
+  <div id="turtle-surprise-overlay" class="turtle-surprise-overlay">
+    <button class="surprise-close" aria-label="Cerrar sorpresa">✕</button>
+
+    <div class="surprise-content">
+      <!-- Tortuga entregando pastel -->
+      <div class="turtle-cake-animation">
+        <div class="animated-turtle">🐢</div>
+
+        <div class="birthday-cake">
+          <div class="cake-layer cake-bottom"></div>
+          <div class="cake-layer cake-middle"></div>
+          <div class="cake-layer cake-top"></div>
+
+          <div class="cake-candles">
+            <div class="candle"><div class="flame"></div></div>
+            <div class="candle"><div class="flame"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Número 21 -->
+      <div class="big-twenty-one">21</div>
+
+      <!-- Texto opcional -->
+      <p class="surprise-text">¡Felices 21!</p>
+    </div>
+
+    <!-- Corazones de fondo -->
+    <div class="surprise-hearts"></div>
+  </div>
+
+  <!-- Cargar JS UNA sola vez, al final -->
+  <script src="js/main.js"></script>
 </body>
 </html>
